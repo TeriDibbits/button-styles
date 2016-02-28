@@ -3,11 +3,68 @@ html {
   font: normal 100%/1.5 sans-serif;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+div {
+  padding: 0.5rem;
+  text-align: center;
 }
 
-div {
-  padding: .5rem;
-  text-align: center;
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.4em 0.75em 0.3em;
+  margin: 0;
+  background-color: #000;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  border: 0;
+  max-width: 9em;
+}
+
+.btn-subtle {
+  margin: 0;
+  padding: 0.4em 0.75em 0.3em;
+  background-color: #ccc;
+  color: #fff;
+  max-width: 8em;
+}
+
+.btn-warning {
+  padding: 0.4em 0.75em 0.3em;
+  margin: .5em .5em .5em .5em;
+  background-color: #f33;
+  color: #fff;
+  text-decoration: none;
+  max-width: 12em;
+}
+
+.btn-ghost {
+  margin: 0;
+  padding: 0.4em 0.75em 0.3em;
+  background-color: #fff;
+  border-radius: 8px;
+  border: solid 3px;
+  border-color: #000;
+  color: #000;
+  max-width: 7em;
+}
+
+.btn-small {
+  font-size: .875;
+  margin: .5em .5em .5em .5em;
+  max-width: 12em;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  margin: .5em .5em .5em .5em;
+  max-width: 12em;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
